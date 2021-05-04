@@ -5,15 +5,9 @@ my_foods = ['pizza', 'falafel', 'carrot cake']
 friend_foods = my_foods[:]
 
 print("My favourite foods are:\n")
-print(my_foods)
+for foods in my_foods:
+    print(foods.title())
 
 print("\nMy friend's favourite foods are:\n")
-print(friend_foods)
-
-# Prove two lists have been created
-
-my_foods.append('roti')
-print(my_foods)
-
-friend_foods.append('donuts')
-print(friend_foods)
+for foods in friend_foods:
+    print(foods.title())
