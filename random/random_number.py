@@ -1,0 +1,3 @@
+# Generate a random number
+import random
+print(random.randrange(1, 15))
