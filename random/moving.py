@@ -18,6 +18,6 @@ if metcap_approval == True:
     if amanda_job == True:
         print(f"You must move to where Amanda's job is.")
     else:
-    print(f"You must move on {move_option_one.upper()} to Sufian's parents' abode.")
+        print(f"You must move on {move_option_one.upper()} to Sufian's parents' abode.")
 
 
